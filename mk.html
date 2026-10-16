@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Website</title>
+  <link rel="stylesheet" href="mk.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" defer></script>
+  <script src="mk.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">MyRealEstate</div>
+    <nav>
+      <ul>
+        <li><a href="rass.html">Buy</a></li>
+        <li><a href="mesh.html">Rent</a></li>
+        <li><a href="ppp.html">Sell</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h1>Find Your Dream Home</h1>
+      <form id="search-form">
+        <input type="text" placeholder="Search by city, ZIP, or address" required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="listings">
+      <h2>Featured Properties</h2>
+      <div class="property-grid">
+        <!-- Sample property card -->
+        <div class="property-card">
+          <img src="ka.png" alt="House">
+          <h3>$500,000</h3>
+          <p>3 Beds • 2 Baths • 2,000 sqft</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="map"></section>
+  </main>
+
+  <footer class="mesh">
+    <p>© 2025 MyRealEstate. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

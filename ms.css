@@ -1,0 +1,26 @@
+body{
+    margin-top: auto;
+    margin: 10px;
+    text-decoration-color: brown;
+}
+section{
+    background-color: none;
+    border-radius: 3p0px;
+}
+form{
+    text-align: center;
+    border-radius: 60px;
+}
+p{
+    text-align: justify;
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+footer{
+    background-color: bisque;
+    cursor: pointer;
+    padding: auto;
+    color: red;
+    text-align: center;
+}

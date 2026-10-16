@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <script>
+        function validateForm() {
+            let fname = document.forms["myForm"]["fname"].value;
+            let lname = document.forms["myForm"]["lname"].value;
+            let email = document.forms["myForm"]["email"].value;
+            let country = document.forms["myForm"]["country"].value;
+
+            let message = "";
+
+            if (fname == "") message += "Please enter your First Name\n";
+            if (lname == "") message += "Please enter your Last Name\n";
+            if (email == "") message += "Email Required field\n";
+            if (country == "") message += "Country: Please select one option\n";
+
+            if (message != "") {
+                alert(message);
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+<form name="myForm" onsubmit="return validateForm()">
+    First Name: <input type="text" name="fname"><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    Email: <input type="text" name="email"><br><br>
+    Phone: <input type="text" name="phone"><br><br>
+    Address: <textarea name="address"></textarea><br><br>
+
+    Country:
+    <select name="country">
+        <option value="">Choose yourself</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

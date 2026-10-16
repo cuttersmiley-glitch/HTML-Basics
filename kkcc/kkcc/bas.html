@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body id="mesh">
+<button onclick="showName()">Your</button>
+<button onclick="showDateTime()">Show Date and Time</button>
+<p id="demo"></p>
+<script>
+function showDateTime(){
+    let current = new Date();
+    document.getElementById("demo").innerHTML = current;
+}
+for(let i = 1; i <= 10; i++){
+    document.write(i + "<br>");
+}
+
+function showName(name){
+    this.name = name;
+    document.getElementById("mesh").style.backgroundColor = "green";
+}
+let s1 = new Student("John");
+</script>
+</body>
+</html>

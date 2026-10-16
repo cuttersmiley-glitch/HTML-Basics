@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groceries>
+
+    <item>
+        <name>Sugar</name>
+        <price>200</price>
+        <quantity>15</quantity>
+        <image>sugar.gif</image>
+    </item>
+
+    <item>
+        <name>Milk</name>
+        <price>120</price>
+        <quantity>20</quantity>
+        <image>milk.gif</image>
+    </item>
+
+</groceries>
