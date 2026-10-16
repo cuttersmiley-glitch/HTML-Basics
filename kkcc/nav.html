@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
+
+        body {
+            font-family: "Isometra", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: blue;
+        }
+
+        .nav-items {
+            width: 80%;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-items ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .nav-items li {
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+
+        .nav-items a {
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .nav-items a:hover {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-items">
+            <img src="jse.jpg" alt="people culture" width="200px" height="150px">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>
