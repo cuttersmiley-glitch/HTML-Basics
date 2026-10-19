@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+
+}
+
+.col {
+    width: 23%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and(min-width:768px) and (max-width:1023px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 48%;
+    }
+
+    p {
+        color: aqua;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .col {
+        width: 100%;
+
+    }
+
+    p {
+        color: chocolate;
+    }
+
+}
